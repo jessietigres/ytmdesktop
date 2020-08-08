@@ -98,3 +98,27 @@ Go to Settings and Integrations then enable Remote Control.
 "isAdvertisement": Bool,
 "inLibrary": Bool
 ```
+
+***
+
+### Send command
+`POST http://localhost:9863/query`
+
+```js
+"command": String
+```
+#### command can be
+* `track-play` - Play music
+* `track-pause` - Pause music
+* `track-next` - 
+* `track-previous` - 
+* `track-thumbs-up` - 
+* `track-thumbs-down` - 
+* `player-volume-up` - 
+* `player-volume-down` - 
+* `player-forward` - 
+* `player-rewind` - 
+* `` - 
+* `` - 
+* `` - 
+* `` - 
