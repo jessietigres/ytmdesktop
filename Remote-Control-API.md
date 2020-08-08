@@ -72,7 +72,7 @@ Go to Settings and Integrations then enable Remote Control.
 "hasLoaded": Bool
 ```
 
-### Get info about playlist
+### Get info about playlists
 `GET http://localhost:9863/query/playlist`
 
 ```js
