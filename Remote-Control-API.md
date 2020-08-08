@@ -32,6 +32,37 @@ Go to Settings and Integrations then enable Remote Control.
 }
 ```
 
+### Get info about player
+`GET http://localhost:9863/query/player`
+
+```js
+"hasSong": Bool,
+"isPaused": Bool,
+"volumePercent": Int,
+"seekbarCurrentPosition": Int,
+"seekbarCurrentPositionHuman": String,
+"statePercent": Int,
+"likeStatus": String,
+"repeatType": String
+```
+
+### Get info about track
+`GET http://localhost:9863/query/track`
+
+```js
+"author": String,
+"title": String,
+"album": String,
+"cover": String,
+"duration": Int,
+"durationHuman": String,
+"url": String,
+"id": String,
+"isVideo": Bool,
+"isAdvertisement": Bool,
+"inLibrary": Bool
+```
+
 ### Get info about lyrics
 `GET http://localhost:9863/query/lyrics`
 
@@ -66,37 +97,6 @@ Go to Settings and Integrations then enable Remote Control.
     },
     ...
 ]
-```
-
-### Get info about player
-`GET http://localhost:9863/query/player`
-
-```js
-"hasSong": Bool,
-"isPaused": Bool,
-"volumePercent": Int,
-"seekbarCurrentPosition": Int,
-"seekbarCurrentPositionHuman": String,
-"statePercent": Int,
-"likeStatus": String,
-"repeatType": String
-```
-
-### Get info about track
-`GET http://localhost:9863/query/track`
-
-```js
-"author": String,
-"title": String,
-"album": String,
-"cover": String,
-"duration": Int,
-"durationHuman": String,
-"url": String,
-"id": String,
-"isVideo": Bool,
-"isAdvertisement": Bool,
-"inLibrary": Bool
 ```
 
 ***
