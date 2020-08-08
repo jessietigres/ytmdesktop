@@ -105,20 +105,25 @@ Go to Settings and Integrations then enable Remote Control.
 `POST http://localhost:9863/query`
 
 ```js
-"command": String
+"command": String,
+"value": String
 ```
-#### command can be
+#### command can be:
 * `track-play` - Play music
 * `track-pause` - Pause music
-* `track-next` - 
-* `track-previous` - 
-* `track-thumbs-up` - 
-* `track-thumbs-down` - 
-* `player-volume-up` - 
-* `player-volume-down` - 
-* `player-forward` - 
-* `player-rewind` - 
-* `` - 
-* `` - 
-* `` - 
-* `` - 
+* `track-next` - Next track
+* `track-previous` - Previous track
+* `track-thumbs-up` - Like current track
+* `track-thumbs-down` - Dislike current track
+* `player-volume-up` - Increase the player volume
+* `player-volume-down` - Decrease the player volume
+* `player-forward` - Forward 10 seconds
+* `player-rewind` - Rewind 10 seconds
+* `player-set-seekbar` - Set value for seekbar
+* `player-set-volume` - Set value for volume
+* `player-set-queue` - Set index of queue to play track
+* `player-repeat` - Toggle `none` or `one` or `all`
+* `player-shuffle` - Shuffle queue
+* `player-add-library` - Add track to library
+* `player-add-playlist` - Add track to playlist
+* `show-lyrics-hidden` - Open hidden lyrics window, to provide data
