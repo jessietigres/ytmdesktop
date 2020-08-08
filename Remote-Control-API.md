@@ -3,8 +3,8 @@ First you need start the Remote Control.
 Go to Settings and Integrations then enable Remote Control.
 
 ***
-#### Query info about player and track
-`GET localhost:9863/query`
+### Get info about player and track
+`GET http://localhost:9863/query`
 
 ```js
 "player": {
@@ -30,4 +30,21 @@ Go to Settings and Integrations then enable Remote Control.
     "isAdvertisement": Bool,
     "inLibrary": Bool
 }
+```
+
+### Get info about queue
+`GET http://localhost:9863/query/queue`
+
+```js
+"automix": Bool,
+"currentIndex": Int,
+"list": [
+    {
+        "cover": String,
+        "title": String,
+        "author": String,
+        "duration": String
+    },
+    ...
+]
 ```
