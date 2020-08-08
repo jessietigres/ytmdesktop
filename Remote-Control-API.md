@@ -120,7 +120,7 @@ Go to Settings and Integrations then enable Remote Control.
 * `player-volume-down` - Decrease the player volume
 * `player-forward` - Forward 10 seconds
 * `player-rewind` - Rewind 10 seconds
-* `player-repeat` - Toggle `none` or `one` or `all`
+* `player-repeat` - Toggle `NONE` or `ONE` or `ALL`
 * `player-shuffle` - Shuffle queue
 * `player-add-library` - Add track to library
 * `player-add-playlist` - Add track to playlist (**Needs value:** Playlist index)
