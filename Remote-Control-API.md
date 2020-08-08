@@ -106,9 +106,10 @@ Go to Settings and Integrations then enable Remote Control.
 
 ```js
 "command": String,
-"value": String
+"value": String (optional)
 ```
 #### command can be:
+* `show-lyrics-hidden` - Open hidden lyrics window to provide data
 * `track-play` - Play music
 * `track-pause` - Pause music
 * `track-next` - Next track
@@ -119,11 +120,10 @@ Go to Settings and Integrations then enable Remote Control.
 * `player-volume-down` - Decrease the player volume
 * `player-forward` - Forward 10 seconds
 * `player-rewind` - Rewind 10 seconds
-* `player-set-seekbar` - Set value for seekbar
-* `player-set-volume` - Set value for volume
-* `player-set-queue` - Set index of queue to play track
 * `player-repeat` - Toggle `none` or `one` or `all`
 * `player-shuffle` - Shuffle queue
 * `player-add-library` - Add track to library
-* `player-add-playlist` - Add track to playlist
-* `show-lyrics-hidden` - Open hidden lyrics window, to provide data
+* `player-add-playlist` - Add track to playlist (**Needs value:** Playlist index)
+* `player-set-seekbar` - Set value for seekbar (**Needs value:** 0 ~ Track duration)
+* `player-set-volume` - Set value for volume (**Needs value:** 0 ~ 100)
+* `player-set-queue` - Set index of queue to play track (**Needs value:** 0 ~ Queue length)
