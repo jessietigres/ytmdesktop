@@ -108,6 +108,8 @@ Go to Settings and Integrations then enable Remote Control.
 "command": String,
 "value": String (optional)
 ```
+##### If server is protected with password, you need set **header**: `Authorization: Bearer PASSWORD`
+
 #### command can be:
 * `show-lyrics-hidden` - Open hidden lyrics window to provide data
 * `track-play` - Play music
