@@ -17,4 +17,9 @@ https://github.com/ytmdesktop/ytmdesktop/wiki/How-use#1-settings
 
 # Enjoy!
 
+## Some problems
+* You may need to release the ports on your operating system's firewall to release external communication
+
+
+
 See more app controls on https://github.com/ytmdesktop/remote/wiki/Controls
