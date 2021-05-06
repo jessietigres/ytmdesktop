@@ -8,7 +8,7 @@ https://github.com/ytmdesktop/ytmdesktop/wiki/How-use#1-settings
 
 ### **_Note that by default a security token is enabled so that only you who have the knowledge of it, can control the app_**
 
-## 3. With Remote Control enabled, note that a new icon will appear on the left side of the settings menu, click on this new icon to open the page with QRCode.
+## 3. With Remote Control enabled, note that a new icon will appear on the left side of the settings icon, click on this new icon to open the page with QRCode.
 
 ![image](https://user-images.githubusercontent.com/2112638/117322633-8c600e00-ae64-11eb-996e-932bad129fea.png)
 
