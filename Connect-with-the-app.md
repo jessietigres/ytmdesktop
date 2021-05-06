@@ -14,3 +14,5 @@ https://github.com/ytmdesktop/ytmdesktop/wiki/How-use#1-settings
 
 ## 4. Open the application and scan the QRCode (You can also add it manually) and if the security token is active, don't forget to type.
 ![image](https://user-images.githubusercontent.com/2112638/117322962-d8ab4e00-ae64-11eb-82d3-d33031ec6e97.png)
+
+# Enjoy!
