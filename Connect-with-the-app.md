@@ -16,3 +16,5 @@ https://github.com/ytmdesktop/ytmdesktop/wiki/How-use#1-settings
 ![image](https://user-images.githubusercontent.com/2112638/117322962-d8ab4e00-ae64-11eb-82d3-d33031ec6e97.png)
 
 # Enjoy!
+
+See more app controls on https://github.com/ytmdesktop/remote/wiki/Controls
