@@ -3,6 +3,16 @@ First you need start the Remote Control.
 Go to Settings and Integrations then enable Remote Control.
 
 ***
+### Integrations made by people
+Looking for a Integration which has already been made using the Remote Control API, here's a collection of a few which have been made by the community.
+
+_We are not responsible for the usage of these Plugins, and Any issues caused by them_
+
+- [OBS Now Playing](https://github.com/ytmdesktop/ytmdesktop/issues/441#issuecomment-822455379) - Display your Music within a Webpage to place inside of your OBS Layout to show while streaming/recording
+- [StreamDeck](https://github.com/XeroxDev/YTMD-StreamDeck) - Display & Interact with YTM Desktop on a StreamDeck
+- [TouchPortal](https://github.com/KillerBOSS2019/TP-YTDM-Plugin) - Display & Interact with YTM Desktop on a TouchPortal 
+
+***
 ### Get info about player and track
 `GET http://localhost:9863/query`
 
