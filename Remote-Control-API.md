@@ -11,6 +11,7 @@ _We are not responsible for the usage of these Plugins, and Any issues caused by
 - [OBS Now Playing](https://github.com/ytmdesktop/ytmdesktop/issues/441#issuecomment-822455379) - Display your Music within a Webpage to place inside of your OBS Layout to show while streaming/recording
 - [StreamDeck](https://github.com/XeroxDev/YTMD-StreamDeck) - Display & Interact with YTM Desktop on a StreamDeck
 - [TouchPortal](https://github.com/KillerBOSS2019/TP-YTDM-Plugin) - Display & Interact with YTM Desktop on a TouchPortal 
+- [VSCode-YTMusic](https://github.com/sedders123/vscode-ytmusic) - Display & Interact with YTM Desktop as you Code in Visual Studio Code.
 
 ***
 ### Get info about player and track
