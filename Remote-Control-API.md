@@ -13,6 +13,8 @@ _We are not responsible for the usage of these Plugins, and Any issues caused by
 - [TouchPortal](https://github.com/KillerBOSS2019/TP-YTDM-Plugin) - Display & Interact with YTM Desktop on a TouchPortal 
 - [VSCode-YTMusic](https://github.com/sedders123/vscode-ytmusic) - Display & Interact with YTM Desktop as you Code in Visual Studio Code.
 
+See page: https://ytmdesktop.app/external_integrations.html
+
 ***
 ### Get info about player and track
 `GET http://localhost:9863/query`
